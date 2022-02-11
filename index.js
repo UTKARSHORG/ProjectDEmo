@@ -35,6 +35,7 @@ app.get('/home', (req, res) => {
   })
 })
 
+
 app.use(express.static(__dirname + '/public'))
 console.log(__dirname + '/public');
 app.listen(4000,()=>{
